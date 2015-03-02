@@ -1,2 +1,2 @@
 # RssReader
-Very simple RSS reader based on System.ServiceModel.Syndication.SyndicationFeed class.
+Very simple RSS reader based on XmlReader class.
