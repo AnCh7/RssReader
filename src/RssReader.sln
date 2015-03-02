@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssReader.Library", "RssReader.Library\RssReader.Library.csproj", "{E4F9A8C8-4171-4C34-B9BF-3995170D48BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssReader.Tests", "RssReader.Tests\RssReader.Tests.csproj", "{850ACB37-3DEB-4C44-88BC-43B72C75025C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssReader.Common", "RssReader.Common\RssReader.Common.csproj", "{9BCAAC3F-A117-4DE2-A5AF-6C116E3FB4B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssReader.UI", "RssReader.UI\RssReader.UI.csproj", "{C885A15D-42BB-49F5-8047-103B64296811}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7B242059-FA5F-443C-9B7B-FC05E7CEADA1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4F9A8C8-4171-4C34-B9BF-3995170D48BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F9A8C8-4171-4C34-B9BF-3995170D48BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F9A8C8-4171-4C34-B9BF-3995170D48BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F9A8C8-4171-4C34-B9BF-3995170D48BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850ACB37-3DEB-4C44-88BC-43B72C75025C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850ACB37-3DEB-4C44-88BC-43B72C75025C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850ACB37-3DEB-4C44-88BC-43B72C75025C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850ACB37-3DEB-4C44-88BC-43B72C75025C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCAAC3F-A117-4DE2-A5AF-6C116E3FB4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCAAC3F-A117-4DE2-A5AF-6C116E3FB4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCAAC3F-A117-4DE2-A5AF-6C116E3FB4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCAAC3F-A117-4DE2-A5AF-6C116E3FB4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C885A15D-42BB-49F5-8047-103B64296811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C885A15D-42BB-49F5-8047-103B64296811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C885A15D-42BB-49F5-8047-103B64296811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C885A15D-42BB-49F5-8047-103B64296811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
